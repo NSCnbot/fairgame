@@ -163,7 +163,6 @@ sudo make altinstall
 sudo python3 -m pip install --upgrade pip
 
 sudo apt install chromium-chromedriver
-cp /usr/bin/chromedriver /home/fairgame/.local/share/virtualenvs/fairgame-<RANDOMCHARS>/lib/python3.8/site-packages/chromedriver_py/chromedriver_linux64
 git clone https://github.com/Hari-Nagarajan/fairgame
 cd fairgame/
 pip3 install pipenv
@@ -173,6 +172,10 @@ pipenv install
 ```
 
 Leave this Terminal window open.
+
+In a new terminal 
+
+`cp /usr/bin/chromedriver /home/fairgame/.local/share/virtualenvs/fairgame-<RANDOMCHARS>/lib/python3.8/site-packages/chromedriver_py/chromedriver_linux64`
 
 Open the following file in a text editor:
 
